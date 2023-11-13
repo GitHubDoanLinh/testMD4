@@ -13,8 +13,8 @@ public class Employee {
     private Long id;
     private String employeecode;
     private String name;
-    private Integer age;
-    private Float salary;
+    private int age;
+    private int salary;
     @ManyToOne
     @JoinColumn(name = "id_department")
     private Department department;
